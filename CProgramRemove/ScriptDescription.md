@@ -26,26 +26,36 @@ b)
     This script removes C files which you no longer want to keep.
     Here are the C file(s) under the current directory:
     f1.c f2.c
+
     Displaying first 10 lines of f1.c:
+
     /* A C program for handling arrays
      Written by John Jones, July 2009
      Updated April 2010
     */
+
     #include <stdio.h>
+
     int main()
     {
      int x;
+
     Delete file f1.c? (y/n):n &(user input)&
     File f1.c NOT deleted.
+
     Displaying first 10 lines of f2.c:
+
     /* Another C program for handling arrays
      Written by John Jones, August 2009
      Updated May 2010
     */
+
     #include <stdio.h>
+
     int main()
     {
      int x, y, z;
+
     Delete file f2.c? (y/n): y &(user input)&
     File f2.c deleted.
 c)
@@ -54,15 +64,20 @@ c)
     This script removes C files which you no longer want to keep.
     The file(s) you want to delete is/are:
     f1.c
+
     Displaying first 10 lines of f1.c:
+
     /* A C program for handling arrays
      Written by John Jones, July 2009
      Updated April 2010
     */
+
     #include <stdio.h>
+
     int main()
     {
      int x;
+
     Delete file f1.c? (y/n):y &(user input)&
     File f1.c deleted.
 d)
@@ -71,18 +86,25 @@ d)
     This script removes C files which you no longer want to keep.
     The file(s) you want to delete is/are: 
     f2.c f3.c
+
     Displaying first 10 lines of f2.c:
+
     /* Another C program for handling arrays
      Written by John Jones, August 2009
      Updated May 2010
     */
+
     #include <stdio.h>
+
     int main()
     {
      int x, y, z;
+
     Delete file f2.c? (y/n): y &(user input)&
     File f2.c deleted.
+
     Displaying first 10 lines of f3.c:
+
     File f3.c does not exist.
 e)
 
@@ -90,7 +112,11 @@ e)
     This script removes C files which you no longer want to keep.
     The file(s) you want to delete is/are: 
     f3.c f4.c
+
     Displaying first 10 lines of f3.c:
+
     File f3.c does not exist.
+
     Displaying first 10 lines of f4.c:
+
     File f4.c does not exist.
