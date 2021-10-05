@@ -10,8 +10,9 @@ the following scenarios:
 Make sure your script is user-friendly and follows common sense (for example, when there is no 
 C program stored under the current directory your script should display a message and then 
 exit).
+### Sample Output
 
-To illustrate the behaviour of the script, the following are sample outputs, noting the '$' is the shell prompt.
+To illustrate the behaviour of the script, the following are sample outputs. The $ is the shell prompt. The texts in & are not part of the sample output. They are hints indicating how your script should behave
 
 a)
 
@@ -34,7 +35,7 @@ b)
     int main()
     {
      int x;
-    Delete file f1.c? (y/n):n (user input)
+    Delete file f1.c? (y/n):n &(user input)&
     File f1.c NOT deleted.
     Displaying first 10 lines of f2.c:
     /* Another C program for handling arrays
@@ -45,7 +46,7 @@ b)
     int main()
     {
      int x, y, z;
-    Delete file f2.c? (y/n): y (user input)
+    Delete file f2.c? (y/n): y &(user input)&
     File f2.c deleted.
 c)
 
@@ -62,7 +63,7 @@ c)
     int main()
     {
      int x;
-    Delete file f1.c? (y/n):y (user input)
+    Delete file f1.c? (y/n):y &(user input)&
     File f1.c deleted.
 d)
 
@@ -79,7 +80,7 @@ d)
     int main()
     {
      int x, y, z;
-    Delete file f2.c? (y/n): y (user input)
+    Delete file f2.c? (y/n): y &(user input)&
     File f2.c deleted.
     Displaying first 10 lines of f3.c:
     File f3.c does not exist.
