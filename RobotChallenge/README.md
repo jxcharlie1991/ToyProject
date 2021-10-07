@@ -5,3 +5,5 @@ I separate the challenge into the basic version and the extended version. The ba
 [The basic version's class diagram](https://github.com/jxcharlie1991/ToyProject/blob/main/RobotChallenge/ClassDiaForRobotChallengeBasic.png)
 
 [The extended version](https://github.com/jxcharlie1991/ToyProject/tree/main/RobotChallenge/Robot-Challenge-Extended)
+
+[The extended version's class diagram](https://github.com/jxcharlie1991/ToyProject/blob/main/RobotChallenge/ClassDiaForRobotChallengeExtended.png)
