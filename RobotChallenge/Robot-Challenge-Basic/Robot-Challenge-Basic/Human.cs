@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Robot_Challenge_Basic
 {
@@ -18,11 +18,12 @@ namespace Robot_Challenge_Basic
         //thus separate the first command checking from the command checking would optimise the efficiency, and user would be more clear to input command.
         public static void AnalyseFirstCommand(string userInput)
         {
-            if (userInput.ToLower() == "exit")
+            userInput = userInput.ToLower();
+            if (userInput == "exit")
             {
                 Comm = Enumerations.Command.exit;
             }
-            else if (userInput.ToLower().StartsWith("place "))
+            else if (userInput.StartsWith("place "))
             {
                 string[] placeLoc = userInput.Substring(6).Split(',');
                 if (int.TryParse(placeLoc[0], out int x) && int.TryParse(placeLoc[1], out int y) && Enum.IsDefined(typeof(Enumerations.Direction), placeLoc[2]))
@@ -57,7 +58,8 @@ namespace Robot_Challenge_Basic
         //Separate the validity checking would make the project easier to modify and update.
         public static void AnalyseCommand(string userInput)
         {
-            if (userInput.ToLower().StartsWith("place "))
+            userInput = userInput.ToLower();
+            if (userInput.StartsWith("place "))
             {
                 string[] commLoc = userInput.Substring(6).Split(',');
                 if (int.TryParse(commLoc[0], out int x) && int.TryParse(commLoc[1], out int y) && Enum.IsDefined(typeof(Enumerations.Direction), commLoc[2]))
